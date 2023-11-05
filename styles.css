@@ -1,9 +1,15 @@
 
 /* Your CSS Code here. */
 #btn{
-	background-color:black;
-	color:white;
-	border-radius:5px;
+	  background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s, color 0.3s;
+
 }
 
 #btn:hover{
